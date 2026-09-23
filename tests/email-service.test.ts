@@ -17,7 +17,7 @@ describe("EmailService", () => {
     const service = new EmailService(provider);
 
     const result = await service.send({
-      to: ["amezsoftsales@gmail.com"],
+      to: ["amezsoft1@gmail.com"],
       subject: "Test",
       html: "<p>Test</p>",
       text: "Test"
@@ -25,6 +25,6 @@ describe("EmailService", () => {
 
     expect(result.ok).toBe(true);
     expect(provider.sent).toHaveLength(1);
-    expect(provider.sent[0].to).toEqual(["amezsoftsales@gmail.com"]);
+    expect(provider.sent[0].to).toEqual(["amezsoft1@gmail.com"]);
   });
 });

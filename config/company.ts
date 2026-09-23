@@ -19,7 +19,7 @@ export const company = {
   },
   contact: {
     generalEmail: "amezsoft1@gmail.com",
-    salesEmail: "amezsoftsales@gmail.com",
+    salesEmail: "amezsoft1@gmail.com",
     supportEmail: "amezsoftsupport@gmail.com",
     phone: "+91 9322719784",
     whatsapp: "+91 9322719784",
