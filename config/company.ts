@@ -7,7 +7,9 @@ export const company = {
     "AmezSoft builds modern digital products and software solutions that help businesses innovate, scale, and grow.",
   shortDescription:
     "A modern software company turning business ideas into dependable digital products.",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.amezsoft.com",
+  siteUrl:
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+  "https://www.amezsoft.com",
   locale: "en_US",
   serviceArea: "Worldwide",
   brandAssets: {
