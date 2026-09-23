@@ -12,7 +12,7 @@ export function Hero() {
         className="absolute left-1/2 top-20 h-72 w-72 -translate-x-1/2 rounded-full bg-[var(--brand-400)]/18 blur-3xl sm:h-96 sm:w-96"
         aria-hidden="true"
       />
-      <Container className="relative grid min-h-[calc(100vh-5rem)] items-center gap-12 py-20 lg:grid-cols-[1.08fr_0.92fr] lg:py-24">
+      <Container className="relative grid min-h-[calc(100vh-5rem)] items-center gap-12 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:py-24">
         <Reveal>
           <div>
             <p className="inline-flex rounded-full border border-[var(--brand-300)]/40 bg-white/80 px-4 py-2 text-sm font-semibold text-[var(--brand-700)] shadow-sm backdrop-blur">
@@ -36,7 +36,7 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={0.12}>
-          <div className="relative mx-auto w-full max-w-xl">
+          <div className="relative mx-auto w-full max-w-[680px] lg:mr-0">
             <div
               className="absolute -inset-8 rounded-[2rem] bg-[var(--brand-500)]/10 blur-2xl"
               aria-hidden="true"

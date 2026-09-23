@@ -4,6 +4,7 @@ import { company, whatsappUrl } from "@/config/company";
 import { legalNavigation, mainNavigation } from "@/data/navigation";
 import { services } from "@/data/services";
 import { solutions } from "@/data/solutions";
+import { containerClassName } from "../ui/Container";
 import { Logo } from "./Logo";
 
 const serviceLinks = services.slice(0, 6);
@@ -12,7 +13,7 @@ const solutionLinks = solutions.slice(0, 5);
 export function Footer() {
   return (
     <footer className="bg-[var(--surface-strong)] text-white">
-      <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 lg:px-8">
+      <div className={containerClassName("wide", "py-16")}>
         <div className="grid gap-10 lg:grid-cols-[1.4fr_2fr]">
           <div>
             <Logo variant="light" />

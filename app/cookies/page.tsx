@@ -25,7 +25,7 @@ export default function CookiesPage() {
         description="The current site does not require marketing cookies. Add analytics and consent details here if tracking is introduced."
       />
       <section className="py-20 sm:py-24">
-        <Container>
+        <Container size="content">
           <div className="mx-auto grid max-w-3xl gap-6">
             {[
               [

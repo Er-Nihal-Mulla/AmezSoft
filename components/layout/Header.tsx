@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import { mainNavigation } from "@/data/navigation";
 import { cn } from "@/lib/utils";
 import { LinkButton } from "../ui/Button";
+import { containerClassName } from "../ui/Container";
 import { Logo } from "./Logo";
 
 export function Header() {
@@ -25,7 +26,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/60 bg-white/78 backdrop-blur-xl">
       <nav
-        className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-8"
+        className={containerClassName("wide", "flex h-20 items-center justify-between")}
         aria-label="Primary"
       >
         <Logo />

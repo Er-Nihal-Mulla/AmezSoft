@@ -61,7 +61,7 @@ export default function PrivacyPage() {
 function LegalContent({ items }: { items: [string, string][] }) {
   return (
     <section className="py-20 sm:py-24">
-      <Container>
+      <Container size="content">
         <div className="mx-auto grid max-w-3xl gap-6">
           {items.map(([title, body]) => (
             <article

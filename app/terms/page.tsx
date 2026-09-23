@@ -25,7 +25,7 @@ export default function TermsPage() {
         description="Final terms should be reviewed by a qualified professional before publishing as binding policy."
       />
       <section className="py-20 sm:py-24">
-        <Container>
+        <Container size="content">
           <div className="mx-auto grid max-w-3xl gap-6">
             {[
               [
